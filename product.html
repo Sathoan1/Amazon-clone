@@ -33,14 +33,18 @@
             <img src="./assets/dropdown_icon.png" width="8px" alt="" >
         </div>
         <div class="nav-text">
-            <p>Hello, Sign-in</p>
+            <p><a href="/signIn.html">Hello, Sign-in</a></p>
             <h1>Account & Lists <img src="./assets/dropdown_icon.png" width="8px" alt="" ></h1>
         </div>
         <div class="nav-text">
             <p>Return</p>
             <h1>& Orders</h1>
         </div>
-        <a href="" class="nav-cart">
+        <!-- for the media query -->
+        <a href="/signIn.html" class="moblie-user-icon">
+            <img src="./assets/user.png" alt="">
+        </a>
+        <a href="/cart.html" class="nav-cart">
             <img src="./assets/cart_icon.png" width="35px" alt="" >
             <h4>Cart</h4>
         </a>
@@ -89,21 +93,264 @@
             </div>
 
             <!-- price -->
-             <div class="product-price">
+             <div class="product-d-price">
                 <div>
                     <p>-35%</p>
-                    <h1>$23.99</h1>
+                    <h1>$ <span>23</span>.99</h1>
                 </div>
-                <h5>List Price: $35.99</h5>
-                <p>Get Fast, Free Shipping with Amazon Prime</p>
-                <p>FREE Returns</p>
-                <p>Join Prime to buy this item at $20.99</p>
-                <p>Available at  alower price from other sellers that may not offer free Prime shipping.</p>
+                <h5>List Price: <span>$35.9</span> 9</h5>
+                <p>Get <b> Fast, Free Shipping </b>with <span>Amazon Prime</span> </p>
+                <p> <span>FREE Returns</span> </p>
+                <p> <span>Join Prime to buy this item at $20.99</span> </p>
+                <p>Available at  alower price from <span>other sellers</span> that may not offer free Prime shipping.</p>
              </div>
+
+             <!-- color selection -->
+              <div class="product-color-selection">
+                <p>Color: <b>Blue</b></p>
+                <div class="product-color-options">
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Black</p>
+                    </div>
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Green</p>
+                    </div>
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Pink</p>
+                    </div>
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Blue</p>
+                    </div>
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Red</p>
+                    </div>
+                    <div class="option">
+                        <img src="./assets/product_img.jpg" width="30px" alt="">
+                        <p>Purple</p>
+                    </div>
+                </div>
+              </div>
+
+              <!-- info -->
+               <div class="product-info">
+                <p><b>Brand</b></p>  <p>BENGO</p>
+                <p><b>Model Name</b></p>  <p>GP000</p>
+                <p><b>Color</b></p>  <p>Blue</p>
+                <p><b>Form Factor</b></p>  <p>Over Ear</p>
+                <p><b>Connectivity Technology</b></p>  <p>Wired</p>
+               </div>
+               <hr>
+
+               <!-- descrption -->
+                <div class="product-description">
+                    <h1>About this item</h1>
+                    <ul>
+                        <li>
+                            Multi-Platform Compatible Support PlayStation 4,  New Xbox One, PC, Nintendo 3DS, Laptop, PSP, Tablet, IPad, Computer, Mobile Phone. Please note you need an extra mMicrosoft Adapter (Not Included) when connect with an old version Xbox One controller.
+                        </li>
+                        <li>
+                            Multi-Platform Compatible Support PlayStation 4,  New Xbox One, PC, Nintendo 3DS, Laptop, PSP, Tablet, IPad, Computer, Mobile Phone. Please note you need an extra mMicrosoft Adapter (Not Included) when connect with an old version Xbox One controller.
+                        </li>
+                        <li>
+                            Multi-Platform Compatible Support PlayStation 4,  New Xbox One, PC, Nintendo 3DS, Laptop, PSP, Tablet, IPad, Computer, Mobile Phone. Please note you need an extra mMicrosoft Adapter (Not Included) when connect with an old version Xbox One controller.
+                        </li>
+                        <li>
+                            Multi-Platform Compatible Support PlayStation 4,  New Xbox One, PC, Nintendo 3DS, Laptop, PSP, Tablet, IPad, Computer, Mobile Phone. Please note you need an extra mMicrosoft Adapter (Not Included) when connect with an old version Xbox One controller.
+                        </li>
+                    </ul>
+                </div>
         </div>
-        <div class="product-d-purchase"></div>
+        <div class="product-d-purchase">
+            <div class="title">
+                <h3>Buy New:</h3>
+                <img src="./assets/circle_icon.png" width="20px" alt="">
+            </div>
+            <h1 class="price"> $<span>23.99</span></h1>
+            <div class="gap">
+                <p>Get <b>Fast, Free Shipping</b> with <span>Amazon Prime</span> </p>
+                <p><span>FREE Returns</span></p>
+            </div>
+            <div class="gap">
+                <p>Free delivery <b>Saturday</b> on all orders <span>over $40</span>, </p>
+                
+            </div>
+            <div class="gap">
+                <p><b>Flash Sales</b> on all products Tomorrow,<b> June 30th</b>. Order within <span>24hrs</span> </p>
+            </div>
+            <!-- location -->
+             <div class="delivery-location">
+                <img src="./assets/location_icon_dark.png" width="20px" alt="">
+                <p><span>Deliver to Lagos 100001</span></p>
+             </div>
+             <h2 class="product-stock">In Stock</h2>
+             <select class="product-quantity">
+                <option value="1">Quantity: 1</option>
+                <option value="2">Quantity: 2</option>
+                <option value="3">Quantity: 3</option>
+             </select>
+
+             <button class="btn">Add to Card</button>
+             <button class="btn product-buy">Buy Now</button>
+
+             <!-- seller -->
+              <div class="product-seller-info">
+                <p>Ships from</p> <p><span>Amazon</span></p>
+                <p>Sold by</p> <p><span>Bengoo Inc</span></p>
+                <p>Returns</p> <p><span>Eligible for Returns, Refund or Replacement within 30days pf receipt</span></p>
+                <p>Payment</p> <p><span>Secure transaction</span></p>
+              </div>
+              <hr>
+              <button class="product-add-list">Add to List</button>
+        </div>
     </div>
 
+    <!-- slider with price -->
+    <div class="products-slider-with-price">
+        <h2>Related Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-1.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-2.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-4.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-12.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-3.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-7.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-5.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-9.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-11.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-8.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-10.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./assets/product2-6.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>12.49</span> List Price: $15.95</p>
+                <h4> This product is the best for you</h4>
+            </div>
+        </div>
+    </div>
 
+    <!-- footer -->
+    <footer class="product-footer">
+        <img src="./assets/amazon_logo.png" width="100" alt="">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+     </footer>
+
+    <script>
+        // scrool container
+const scrollContainer = document.querySelectorAll('.products');
+  for(const item of scrollContainer){
+     item.addEventListener('wheel', (evt)=>{
+        evt.preventDefault();
+        item.scrollLeft += evt.deltaY;
+     })
+  }
+    </script>
 </body>
 </html>
